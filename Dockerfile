@@ -22,6 +22,7 @@ RUN \
  apk add --no-cache \
 	libffi \
 	libressl \
+	openssl \
 	py2-pip && \
 # install nntp2nntp via pip package manager
  if [ -z ${NNTP2NNTP_RELEASE+x} ]; then \
